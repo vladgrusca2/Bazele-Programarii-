@@ -1,0 +1,13 @@
+﻿program LP1.4;
+var x,y,r: Integer;
+s : real;
+begin 
+  writeln('DAți vârsta băiatului ');
+  readln(x);
+  writeln('Dați vârsta fetei ');
+  readln(y);
+  s:=(x+y)/2;
+  r:=abs(x-y);
+  writeln('Vârsta medie= ', s);
+  writeln('Diferența = ', r);
+end.

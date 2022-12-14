@@ -1,0 +1,14 @@
+﻿program LP1.9;
+var x, y, z, k, s: Integer;
+begin 
+  writeln('Introduceți numarul ');
+  readln(x);
+  y:= x div 10;
+  z:= y div 10;
+  k:= z div 10;
+  writeln('Primul număr = ', y);
+  writeln('Al doilea număr = ', z);
+  writeln('Al treile număr = ', k);
+  s:= y+z+k;
+  writeln('Suma = ', s);
+end.
